@@ -8,4 +8,10 @@
 
 - In this project, we downloaded three raw data files from Wikipedia, Kaggle and Movielens. The wiki and Kaggle data had a lot over overlap, so we cleaned them by filtering and dropping duplicated/useless rows, transferring column values to readable ones, and merging two tables into a comprehensive one. We also created nested functions to organize our cleaning/transforming process for huge data file such as "ratings.csv" for movie ratings. Finally, we loaded our cleaned movie data and the raw rating file to pgAdmin, a SQL database, for further analysis.
 
+- There were 6,052 rows of cleaned movie data and 26,024,289 rows of the original rating data loaded to pdAdmin.
+
+![movie_df](movies_query.png)
+
+![rating_data](ratings_query.png)
+
 - The project ended here for now, but there were tons of new concepts to review and digest for future usage.
